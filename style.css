@@ -1,0 +1,47 @@
+body{
+  background-color: aliceblue;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 10em;
+}
+.name{
+  width: fit-content;
+  display: inline;
+}
+.my-name{
+  width: fit-content;
+  padding-left: .25em;
+  padding-top: 1em;
+  margin: inherit;
+}
+.contact-info{
+  float: right;
+    background-color: black;
+    margin-top: -3em;
+    display: inline;
+    margin-right: 1em;
+}
+.skill-set li{
+  display: inline;
+  width: fit-content;
+}
+.sum-title{
+  background-color: black;
+  color: white;
+}
+.skills-title{
+  background-color: black;
+  color: white;}
+.ed-title{
+  background-color: black;
+  color: white;}
+.em-hi-title{
+  background-color: black;
+  color: white;}
+.time{
+  margin-top: -1em;
+    font-style: italic;
+}
