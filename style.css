@@ -1,45 +1,16 @@
 body{
-  background-color: aliceblue;
+  max-width: 100vw;
 }
 
-header {
-  background-color: black;
-  color: white;
-  height: 10em;
+.name-row{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding-top: 1rem;
 }
-.name{
-  display: inline;
-}
-.my-name{
-  width: fit-content;
-  padding-left: .25em;
-  padding-top: 1em;
-  margin: inherit;
-}
+
 .contact-info{
-  float: right;
-    background-color: black;
-    margin-top: -3em;
-    display: inline;
-    margin-right: 1em;
+text-align: end;
 }
-.skill-set li{
-  display: inline;
-}
-.sum-title{
-  background-color: black;
-  color: white;
-}
-.skills-title{
-  background-color: black;
-  color: white;}
-.ed-title{
-  background-color: black;
-  color: white;}
-.em-hi-title{
-  background-color: black;
-  color: white;}
-.time{
-  margin-top: -1em;
-    font-style: italic;
-}
+

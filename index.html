@@ -1,68 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Resume</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <div class="name">
-      <h1 class="my-name"><b>Alicia Gilfoy</b></h1>
-      <div class="contact-info">
-        <p>Email: Aliciagilfoy@gmail.com</p>
-        <p>Phone: 208-391-8989</p>
-        <p>Location: Middleton, ID</p>
+
+  <header class="container">
+    <div class="name-row row">
+      <div class="my-name col-12 col-md-5 h1"><b>Alicia Gilfoy</b></div>
+      <div class="col-12 col-md-5 contact-info">
+        <div class="col-12 h4">Email: Aliciagilfoy@gmail.com</div>
+        <div class="col-12 h4">Phone: 208-391-8989</div>
+        <div class="col-12 h4">Location: Middleton, ID</div>
       </div>
     </div>
   </header>
-  <div class="summary">
-    <h2 class="sum-title">Professional Summary</h2>
-    <h3 class="sum-p">This is stuff about me. Check out my linkdin profile <a href="www.linkedin.com/in/alicia-gilfoy">
-        here</a>. </h2>
-  </div>
-  <div class="skills">
-    <h2 class="skills-title">Professional Skills</h2>
-    <ul class="skill-list"></ul>
-    <li>skill 1</li>
-    <li>skill 1</li>
-    <li>skill 1</li>
-    <li>skill 1</li>
-    <li>skill 1</li>
-    <li>skill </li>
-  </div>
-  <div class="em-history">
-    <h2 class="em-hi-title">Employment History</h2>
-    <h3>Place</h3>
-    <h4 class="time">From This time to This time</h4>
-    <h4 class="description">This is what I did here!</h4>
-    <h3>Place</h3>
-    <h4 class="time">From This time to This time</h4>
-    <h4 class="description">This is what I did here!</h4>
-    <h3>Place</h3>
-    <h4 class="time">From This time to This time</h4>
-    <h4 class="description">This is what I did here!</h4>
-    <h3>Place</h3>
-    <h4 class="time">From This time to This time</h4>
-    <h4 class="description">This is what I did here!</h4>
-  </div>
-  <div class="education">
-    <h2 class="ed-title">Education</h2>
-    <h3>Place</h3>
-    <h4 class="time">From This time to This time</h4>
-    <h4 class="description">This is what I did here!</h4>
-    <h3>Place</h3>
-    <h4 class="time">From This time to This time</h4>
-    <h4 class="description">This is what I did here!</h4>
-    <h3>Place</h3>
-    <h4 class="time">From This time to This time</h4>
-    <h4 class="description">This is what I did here!</h4>
-  </div>
+  <main class="container">
+    <div class="row summary-row">
+      <div class="col-12 h3 bg-dark text-white p-1">Summary</div>
+      <div class="col-12 h4">summary here...</div>
+    </div>
+  </main>
+  <main class="container">
+    <div class="row education-row">
+      <div class="col-12 h3 bg-dark text-white p-1">Education</div>
+      <div class="col-12 h4">Place 1
+        <div class="col-12 h5">blah</div>
+      </div>
+      <div class="col-12 h4">Place 2
+        <div class="col-12 h5">Blah</div>
+      </div>
+      <div class="col-12 h4">Place 3
+        <div class="col-12 h5">Blah</div>
+      </div>
+    </div>
+  </main>
+  <main class="container">
+    <div class="row experience-row">
+      <div class="col-12 h3 bg-dark text-white p-1">Experience</div>
+      <div class="col-12 h4">Place 1
+        <div class="col-12 h5">From
+          <p class="h6">summary</p>
+        </div>
+      </div>
+      <div class="col-12 h4">Place 2
+        <div class="col-12 h5">From
+          <p class="h6">summary</p>
+        </div>
+      </div>
+      <div class="col-12 h4">Place 2
+        <div class="col-12 h5">From
+          <p class="h6">summary</p>
+        </div>
+      </div>
+    </div>
+  </main>
 
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
